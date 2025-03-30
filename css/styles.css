@@ -236,18 +236,18 @@ body {
     width: 50%;
 }
 
-.first-section-text-sub-container{
+.first-section-text-sub-container {
     height: 100%;
 }
 
-.first-section-text-div1{
+.first-section-text-div1 {
     height: 15%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
-.first-section-text-div1 div{
+.first-section-text-div1 div {
     background: linear-gradient(90.05deg, rgba(255, 255, 255, 0.36) 0.04%, rgba(252, 252, 252, 0.12) 102.54%);
     box-shadow: 0 0 0 0.5px #fff;
     border-radius: 30px;
@@ -258,7 +258,7 @@ body {
     gap: 10px;
 }
 
-.star-review-span{
+.star-review-span {
     background-color: #fff;
     border-radius: 30px;
     height: 36px;
@@ -269,35 +269,244 @@ body {
     padding: 0 10px;
 }
 
-.first-section-text-div2{
+.first-section-text-div2 {
     height: 25%;
-    background-color: rgb(218, 223, 92);
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.first-section-text-div2 p{
+.first-section-text-div2 p {
     margin: 0;
     font-size: 56px;
     font-weight: 300;
     color: var(--fontAndBgColor);
 }
 
-.first-section-text-div3{
-    height: 45%;
-    background-color: rgb(110, 174, 220);
+.first-section-text-div3 {
+    height: 40%;
 }
 
-.first-section-text-div4{
+.first-section-text-div3 div {
+    display: flex;
+}
+
+.first-section-text-div3 div:first-child {
+    display: flex;
+    gap: 150px;
+}
+
+.first-section-text-div3 div:first-child p {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 700;
+    background: var(--golden-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first-section-text-div3 div:nth-child(2) {
+    display: flex;
+    gap: 100px;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--fontAndBgColor);
+}
+
+.first-section-text-div3 div:nth-child(2) p {
+    margin: 0;
+}
+
+.first-section-text-div4 {
     height: 15%;
-    background-color: rgb(199, 67, 164);
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
+.first-section-text-div4 button {
+    height: 50px;
+}
+
 .first-section-image-container {
     width: 50%;
     text-align: center;
+}
+
+/* incredible-taste-container */
+
+.incredible-taste-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 80px 0 150px 0;
+}
+
+.content-box {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 16px;
+
+    background-color: transparent;
+
+    border: 2px solid transparent;
+    background-image: linear-gradient(rgb(224, 219, 219), rgb(231, 226, 226)), var(--golden-gradient);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.content-box p {
+    margin: 0;
+    background: transparent;
+    color: var(--fontAndBgColor);
+    padding: 8px 110px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+/* view full ingredients section */
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 0 50px;
+}
+
+.second-section-text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 80px;
+}
+
+.second-section-text-container>p:first-child {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: 300;
+    background: var(--golden-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second-section-text-container p:nth-child(2) {
+    margin: 0 0 20px 0;
+    font-size: 36px;
+    color: var(--fontAndBgColor);
+}
+
+.second-section-text-container p:nth-child(3) {
+    margin: 0 0 20px 0;
+    font-size: 21px;
+    color: var(--fontAndBgColor);
+}
+
+.view-ingredients-btn {
+    width: 308px;
+    height: 42px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background: var(--golden-gradient);
+}
+
+.view-ingredients-btn p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.second-section-image-container {
+    width: 50%;
+}
+
+.second-section-image-container img {
+    width: 730px;
+    height: 775px;
+}
+
+/* guarentee section */
+
+.guarentee-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 0 50px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+
+.guarentee-container>p {
+    font-size: 17px;
+    font-weight: 300;
+    background: var(--golden-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform:uppercase;
+}
+
+.guarentee-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.guarentee-container > div > div p:first-child{
+    margin: 0;
+    color: rgba(50, 45, 45, 1);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.guarentee-container > div > div p:nth-child(2){
+    margin: 10px 0 0 0;
+    color: rgba(102, 102, 102, 1);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* as seen in */
+
+.as-seen-in-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 0 50px;
+    padding: 0 40px;
+}   
+
+.as-seen-in-container > div:first-child{
+    text-transform: uppercase;
+}
+
+.as-seen-in-container > div:first-child p{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.as-seen-in-container > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.as-seen-in-container > div:nth-child(2) img{
 }
