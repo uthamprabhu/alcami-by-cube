@@ -488,7 +488,7 @@ body {
     align-items: center;
     margin: 50px 50px 0 50px;
     padding: 0 40px;
-}   
+}
 
 .as-seen-in-container > div:first-child{
     text-transform: uppercase;
@@ -498,6 +498,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin: 0;
+    color: var(--fontAndBgColor);
 }
 
 .as-seen-in-container > div:nth-child(2){
@@ -507,6 +508,51 @@ body {
     gap: 100px;
 }
 
+/* add to cart section */
 
-.as-seen-in-container > div:nth-child(2) img{
+.add-to-cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px 0 50px;
+}
+
+.add-to-cart-container > div:first-child{
+    background-color: #333;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.add-to-cart-container > div:first-child > div:first-child{
+    background: rgba(249, 249, 249, 1);
+    position: relative;
+    border-radius: 10px;
+}
+
+.add-to-cart-container > div:first-child > div:first-child > div:first-child > img:first-child{
+    background-color: #BB9A3C;
+}
+
+.add-to-cart-container > div:first-child > div:first-child > div:first-child > img:nth-child(2){
+    position: absolute;
+    top: 100px;
+}
+
+.ingredients-image-container{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart-container > div:nth-child(2){
+    background-color: #E4C267;
+    width: 50%;
+}
+
+.dots-and-arrows-container{
+    background-color: #3c71bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
